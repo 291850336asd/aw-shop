@@ -1,0 +1,94 @@
+
+.thisRotate{ -webkit-animation: thisRotate 8s linear infinite; }
+@-webkit-keyframes thisRotate {
+    0% {-webkit-transform:rotate(0deg);-webkit-transform-origin:50% 50%;}
+    100% {-webkit-transform:rotate(360deg);-webkit-transform-origin:50% 50%;}
+}
+
+.ThisScale{ -webkit-animation:ThisScale 1s 1s ease-out infinite alternate; }
+@-webkit-keyframes ThisScale {
+    0% { opacity:1; -webkit-transform: scale(1);  }
+    100% { opacity:1; -webkit-transform: scale(0.7);  }
+}
+.ThisScale2{ -webkit-animation:ThisScale2 1s 1s ease-out infinite alternate; }
+@-webkit-keyframes ThisScale2 {
+    0% { opacity:1; -webkit-transform: scale(1);  }
+    100% { opacity:1; -webkit-transform: scale(1.1);  }
+}
+
+.ThisScale{ -webkit-animation:ThisScale 1s 1s ease-out infinite alternate; }
+@-webkit-keyframes ThisScale {
+    0% { opacity:1; -webkit-transform: scale(1);  }
+    100% { opacity:1; -webkit-transform: scale(0.7);  }
+}
+
+.ThisOpaticy4{ -webkit-animation:ThisOpaticy 4s infinite; }
+@-webkit-keyframes ThisOpaticy {
+    0% { opacity:1;  }
+    5% { opacity:0;  }
+    10% { opacity:1;  }
+    100% { opacity:1;}
+}
+.ThisOpaticy3{ -webkit-animation:ThisOpaticy2 4s infinite; }
+@-webkit-keyframes ThisOpaticy2 {
+    0% { opacity:1;  }
+    10% { opacity:1;  }
+    15% { opacity:0;  }
+    20% { opacity:1;  }
+    100% { opacity:1;}
+}
+.ThisOpaticy2{ -webkit-animation:ThisOpaticy3 4s infinite; }
+@-webkit-keyframes ThisOpaticy3 {
+    0% { opacity:1;  }
+    20% { opacity:1;  }
+    25% { opacity:0;  }
+    30% { opacity:1;  }
+    100% { opacity:1;}
+}
+.ThisOpaticy1{ -webkit-animation:ThisOpaticy4 4s infinite; }
+@-webkit-keyframes ThisOpaticy4 {
+    0% { opacity:1;  }
+    30% { opacity:1;  }
+    35% { opacity:0;  }
+    40% { opacity:1;  }
+    100% { opacity:1;}
+}
+.page1_book_div_pre{
+  position: absolute;
+  width: 70%;
+	top: 8.5%;
+	height: 16%;
+	left: 15%;
+	overflow: hidden;
+}
+.shineflash{
+  position: absolute;
+  width: 10px;
+  height: 200%;
+  top: -50%;
+  background-color: rgba(255,255,255,.2);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-animation: searchLights 1s ease-in 1s infinite;
+	-o-animation: searchLights 1s ease-in 1s infinite;
+	animation: searchLights 1s ease-in 1s infinite;
+}
+@-webkit-keyframes searchLights {
+	0% { left: 0%;}
+	to { left: 100%;}
+}
+@-o-keyframes searchLights {
+  0% { left: 0%; }
+	to { left: 100%;}
+}
+@-moz-keyframes searchLights {
+  0% { left: 0%; }
+	to { left: 100%;}
+}
+@keyframes searchLights {
+  0% { left: 0%; }
+	to { left: 100%;}
+}
